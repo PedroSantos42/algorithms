@@ -1,34 +1,6 @@
 
 public class Anagrama implements InterfaceAnagrama {
-/**
-	@Override
-	public boolean isAnagrama(String param1, String param2) throws Exception {
-		
-		boolean sair = true;
-		int i = 0;
-		
-		while (i < param1.length() & sair == true) {
-			char aux = param1.charAt(i);
-			int c1 = 0;
-			if (param1.length() != param2.length()) {
-				sair = true;
-			}
-			for (int j = 0; j < param1.length(); j++) {
-				if (param1.charAt(j) == aux)
-					c1++;
-			}
-			int c2 = 0;
-			for (int j = 0; j < param2.length(); j++) {
-				if (param2.charAt(j) == aux)
-					c2++;
-			}
-			if (c1 != c2)
-				sair = false;
-			i++;
-		}
-		return sair;
-	}
-*/
+
 	@Override 
 	public boolean isAnagrama(String param1, String param2) throws Exception
 	{
