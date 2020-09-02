@@ -1,2 +1,3 @@
-# eclipse
-Repositório da IDE Eclipse
+# Java Algorithms
+
+Some well known algorithms in Java
